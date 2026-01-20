@@ -24,12 +24,10 @@
 
     <form action="buscar.php" method="POST">
 
-        
         <div id="dniBox" class="box">
             <label for="dni">Número de DNI</label>
             <input type="text" id="dni" name="dni" placeholder="Ej: 12345678">
         </div>
-
         
         <div id="nameBox" class="box">
             <label for="nombre1">Primer Nombre</label>
@@ -46,8 +44,21 @@
         </div>
 
         <input type="submit" value="Buscar">
+
     </form>
+
+    <div class="result-box">
+        
+        <h2>Resultado</h2>
+
+        <div class="result-content">
+        
+            <p class="placeholder">Los resultados aparecerán aquí</p>
+        </div>
+    </div>
+
 </div>
+
 
 </body>
 </html>
