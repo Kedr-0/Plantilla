@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Búsqueda de Persona</title>
+    <title>TITULO</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
 <div class="container">
-    <h1>Búsqueda de Persona</h1>
+    <h1>TITULO</h1>
 
     
     <input type="radio" name="tipo" id="optDni" checked>
@@ -18,8 +18,8 @@
 
     
     <div class="buttons">
-        <label for="optDni">Buscar por DNI</label>
-        <label for="optNombre">Buscar por Nombres</label>
+        <label for="optDni">TITULO</label>
+        <label for="optNombre">TITULO</label>
     </div>
 
     <form action="buscar.php" method="POST">
